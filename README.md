@@ -31,3 +31,9 @@ const { processarCadastro } = require("./cadastro");
 ## Estrutura local
 
 Este repositório está sendo usado também como workspace de organização. Pastas como `Escola/`, `Organizado/` e `Projetos/` ficam fora do Git e são ignoradas.
+
+## Governança
+
+- [LICENSE](LICENSE)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [CHANGELOG.md](CHANGELOG.md)
