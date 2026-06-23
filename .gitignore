@@ -1,0 +1,23 @@
+.env
+academico-data.sqlite
+Escola/
+Organizado/
+Projetos/
+Telegram Desktop/
+gmail-telegram-bot
+lembrete-bot
+tra/
+*.zip
+*.rar
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+*.ods
+*.odt
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tif
+*.mp4

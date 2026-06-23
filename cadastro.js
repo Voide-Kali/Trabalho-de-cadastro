@@ -71,22 +71,30 @@ function processarCadastro(dados) {
   }
 }
 
-console.log("=== Dados válidos ===");
-console.log(
-  processarCadastro({
-    nome: "João Silva",
-    email: "joao@email.com",
-    senha: "123456",
-    idade: 20,
-  })
-);
+if (require.main === module) {
+  console.log("=== Dados válidos ===");
+  console.log(
+    processarCadastro({
+      nome: "João Silva",
+      email: "joao@email.com",
+      senha: "123456",
+      idade: 20,
+    })
+  );
 
-console.log("\n=== Dados inválidos ===");
-console.log(
-  processarCadastro({
-    nome: "Jo",
-    email: "email-invalido",
-    senha: "123",
-    idade: 16,
-  })
-);
+  console.log("\n=== Dados inválidos ===");
+  console.log(
+    processarCadastro({
+      nome: "Jo",
+      email: "email-invalido",
+      senha: "123",
+      idade: 16,
+    })
+  );
+}
+
+module.exports = {
+  CadastroError,
+  validarCadastro,
+  processarCadastro,
+};
